@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expence Tracker Application </title>
+</head>
+<link rel="stylesheet" href="./Style.css">
+<script src="./app.js" defer></script>
+
+<body>
+    <div class="container">
+        <div class="parent">
+            <div class="box1">
+                <h2>Expence-Tracker Application</h2>
+                <div class="row">
+                    <input class="input_box" type="number" placeholder="  Your Monthly budget..." id="input_box">
+                    <button type="button" onclick="handleclick()" class="btn">Set budget</button>
+                </div>
+
+                <div id="amount-container">
+                    <div class="balance" id="balance">
+                        <h1 class="inp_bal" id="inp_bal">0.00</h1>
+                        <h5 class="balance-label">Your balance</h5>
+                    </div>
+                    <div class="exp_inc">
+                        <div class="income" id="income">
+                            <h3>Income</h3>
+                            <p id="fullbudget">0.00 </p>
+                        </div>
+                        <div id="Expence">
+                            <h3>Expence</h3>
+                            <p id="exp">0.00 </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="box2">
+                <div class="form">
+                    <form id="frm">
+                        <label for="date">Payment Date :</label>
+                        <input type="date" id="date"><br>
+                        <label for="amount">Amount :</label>
+                        <input type="number" id="amount_box"><br>
+                        <label for="Expence_List">Category</label>
+                        <select id="Expence_List" name="Expence_List">
+                            <option value="">Select your option</option>
+                            <option value="Salary">Salary</option>
+                            <option value="Savings">Savings</option>
+                            <option value="Loans">Loans</option>
+                            <option value="ke bill">ke bill</option>
+                            <option value="fee">fee</option>
+                            <option value="house rent">house rent</option>
+                            <option value="Shoping">Shoping</option>
+                            <option value="Coffie">Coffie</option>
+                            <option value="Grocery">Grocery</option>
+                            <option value="Foods">Foods</option>
+                            <option value="Other">Other</option>
+                        </select><br>
+                        <label for="desc">Discription :</label>
+                        <input id="desc" type="text">
+                    </form>
+                </div>
+                <div id="pay-overview" class="pay-overview">
+                    <h3>Overview Detail</h3>
+                    <div class="row2">
+                        <div id="totalbudget" class="totalbudget">
+                            <h4>Total budget</h4>
+                            <P id="ttbd">0.00</P>
+                        </div>
+                        <div id="expbudget" class="Expbudget">
+                            <h4>Expenxe</h4>
+                            <P id="expm">0.00</P>
+                        </div>
+                        <div id="rembudget" class="rembudget">
+                            <h4>Remaining budget</h4>
+                            <P id="rmbd">0.00</P>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" onclick="handleclick2()" class="btn2">submit</button>
+            </div>
+        </div>
+        <div class="parent2">
+            <div class="box11">
+                <h2>Expence List History</h2>
+                <ul class="ulp" id="ulp">
+                    <li>Date</li>
+                    <li>Category</li>
+                    <li>Amount</li>
+                    <li>Discription</li>
+                </ul>
+                <ul class="ulval" id="ulval">
+                    <!-- <li id="fordate"></li>
+                    <li id="forcat"></li>
+                    <li id="foramt"></li>
+                    <li id="fordesc"></li> -->
+                    <!-- <button class="delbtn">del</button> -->
+                </ul>
+            </div>
+        </div>
+</body>
+
+</html>

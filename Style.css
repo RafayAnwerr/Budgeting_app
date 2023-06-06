@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    padding: 10px;;
+    display: flex;
+}
+.parent{
+    width:100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 5px 80px 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+.box1{
+    margin: -13px auto -12px;
+}
+.box1 h2{
+    color: #002765;
+    margin-bottom: 20px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:#edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+.input_box {
+    border-radius: 17px;
+    flex: 1;
+    border: none;
+    outline: none       ;
+    background: transparent;
+    padding: 10px;
+
+}
+
+.btn {
+    border: none;
+    outline: none       ;
+    padding: 16px 50px;
+    background: #ff5945;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius:  17px; ;
+}
+
+.balance{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inp_bal, .balance-label {
+    display: block;
+}
+
+.exp_inc{
+    display: flex;
+    justify-content: space-around;
+    /* margin: 25px auto ; */
+    background: #edeef0;
+    height: 78px;
+    align-items: center;
+}
+.box2{
+    margin-top: 25px;
+}
+
+.pay-overview{
+    width: 480px;
+    height: 79px;
+    position: relative;
+    top: 27px;
+    background: #edeef0;}
+
+
+.pay-overview h3{
+    text-align: center;
+}
+
+.row2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn2{
+    border: none;
+    outline: none       ;
+    padding: 16px 50px;
+    background: #ff5945;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius:  17px; ;
+    position: relative;
+    top: 27px;
+    left: 170px;
+}
+.parent2{
+    width:100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 5px 80px 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+
+.box11 li {
+list-style: none;
+}
+
+.ulp{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.ulp li {
+font-weight: 500;
+}
+
+
+.parent2 .transaction {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    width: 420px;
+    border-radius:  17px;
+
+}
+
+/* .delbtn{
+    border: none;
+    outline: none;
+    padding: 7px 10px;
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius:  17px;
+    position: relative;
+    left: 20px;
+    background: #df230e;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
